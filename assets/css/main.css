@@ -1501,7 +1501,8 @@ body {
   position: relative;
   -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
   transform: translateZ(0) translateX(0) rotateY(0deg);
-  min-height: 100%;
+  min-height: 90vh;
+  height: 94.75vh;
   outline: 30px solid #0f33ff;
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
@@ -1695,4 +1696,9 @@ body {
   background-color: rgba(0, 0, 0, 0.075);
   color: white;
   padding-top: 23.5vh;
+}
+
+.copyright {
+  text-align: center;
+  margin-block-start: 0;
 }
